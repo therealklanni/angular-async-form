@@ -34,9 +34,6 @@ known validation errors in the UI before submitting the form, and unkown errors
 from async operations after the form is submitted.
 * Allows you to handle errors _after_ a form is submitted and display them to the
 user inside the form.
-* If an error was returned for a control (like for input validation that wasn't
-handled in the UI), the control _must_ receive a `blur` event before setting it's
-validity again to `true`.
 * Display form wide error messages.
 * 100% asynchronous.  May be used with or without HTTP calls.
 * Versatile Directive API.
